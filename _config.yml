@@ -26,6 +26,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Gridonx
 github_username:  Gridonyx
 
+# Theme Customizing
+minima:
+  skin: dark
+  date_format: "Y-%m-%d"
+  social_links:
+    twitter: Gridonx
+    github: Gridonyx
+show_excerpts: true
+
 # Build settings
 theme: minima #jekyll-theme-cayman
 plugins:
