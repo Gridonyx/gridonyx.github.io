@@ -16,11 +16,12 @@ You may do so by opening PowerShell as an administrator and running the followin
 Install-Module -Name ExchangeOnlineManagement
 {% endhighlight %}
 
-Note, you may get an error message about PowerShellGet, generally this just means the excution policy setting on your workstation is not allowing the install to run due to it being from a non-local source. You can  get around this by running the following, then running the above command again. I recommend setting the execution policy back to the default of Restricted when you're done:
+Note, you may get an error message about PowerShellGet, generally this just means the excution policy setting on your workstation is not allowing the install to run due to it being from a non-local source. You can  get around this by running the following, then running the above command again:
 {% highlight powershell %}
 Set-ExecutionPolicy Unrestricted
 {% endhighlight %}
-After install:
+
+I recommend setting the execution policy back to the default of Restricted when you're done:
 {% highlight powershell %}
 Set-ExecutionPolicy Restricted
 {% endhighlight %}
