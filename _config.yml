@@ -23,16 +23,16 @@ email: hello@gridonyx.com
 description: It is a blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: Gridonx
-#github_username:  Gridonyx
+twitter_username: Gridonx
+github_username:  Gridonyx
 
 # Theme Customizing
 minima:
-  skin: dark
+#  skin: dark
   date_format: "%Y-%m-%d"
-  social_links:
-    twitter: Gridonx
-    github: Gridonyx
+#  social_links:
+#    twitter: Gridonx
+#    github: Gridonyx
 show_excerpts: true
 
 # Build settings
