@@ -31,7 +31,7 @@ After the install has completed, you must import the module into PowerShell, lik
 Import-Module ExchangeOnlineManagement
 {% endhighlight %}
 
-Then you must connect to your organization:
+Then you must connect to your organization, where `user@email.com` is a account with appropriate role assignments:
 {% highlight powershell %}
 Connect-ExchangeOnline -UserPrincipalName user@email.com
 {% endhighlight %}
