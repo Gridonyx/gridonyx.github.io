@@ -21,17 +21,12 @@ Note, you may get an error message about PowerShellGet, generally this just mean
 Set-ExecutionPolicy Unrestricted
 {% endhighlight %}
 
-I recommend setting the execution policy back to the default of Restricted when you're done:
-{% highlight powershell %}
-Set-ExecutionPolicy Restricted
-{% endhighlight %}
-
 After the install has completed, you must import the module into PowerShell, like so:
 {% highlight powershell %}
 Import-Module ExchangeOnlineManagement
 {% endhighlight %}
 
-Then you must connect to your organization, where `user@email.com` is a account with appropriate role assignments:
+Then you must connect to your organization, where `user@email.com` is an account with appropriate role assignments in your tenant:
 {% highlight powershell %}
 Connect-ExchangeOnline -UserPrincipalName user@email.com
 {% endhighlight %}
@@ -44,6 +39,11 @@ Set-OrganizationConfig -AllowPlusAddressInRecipients $true
 If all is well, you may then disconnect using:
 {% highlight powershell %}
 Disconnect-ExchangeOnline
+{% endhighlight %}
+
+I recommend setting the execution policy back to the default of Restricted when you're done:
+{% highlight powershell %}
+Set-ExecutionPolicy Restricted
 {% endhighlight %}
 
 That's all there is to it, the change takes effect immediately so you can begin enjoying the ability to use subaddresses.
