@@ -6,7 +6,7 @@ categories: microsoft365 powershell
 ---
 Subaddressing, also known as plus addressing, is a feature which allows an individual to append a tag to their email address by following this format: email+tag@domain.com. This allows a user to create as many unique email addresses as they would like, while still receiving them to their single inbox. This comes in handy when you want to filter through emails, as you could use a unique tag for every website, or use more general tags like "+shopping" or "+entertainment". 
 
-Microsoft has added this capability to Exchange Online as of September of 2020. While it is not enabled for organizations by default, nor can you enable it in the Admin Center, you may enable it using the Exchange Online PowerShell Cmdlets, which I will breakdown the installation and use of below.
+Microsoft has added this capability to Exchange Online as of September of 2020. While it is not enabled for organizations by default (UPDATE: As of May 2022 this is [enabled by default in new organizations](https://learn.microsoft.com/en-us/exchange/recipients-in-exchange-online/plus-addressing-in-exchange-online)) , nor can you enable it in the Admin Center, you may enable it using the Exchange Online PowerShell Cmdlets, which I will breakdown the installation and use of below.
 
 ## How to Enable
 
