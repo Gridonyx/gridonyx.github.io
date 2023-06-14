@@ -47,3 +47,13 @@ Set-ExecutionPolicy Restricted
 {% endhighlight %}
 
 That's all there is to it, the change takes effect immediately so you can begin enjoying the ability to use subaddresses.
+
+
+### Update
+As of May 2022, you may now also enable this through the Exchange Online Admin Center:
+
+- Navigate to the new Exchange admin center at https://admin.exchange.microsoft.com
+- Click on **Settings**
+- Click on **Mail flow**
+- Uncheck *Turn off plus addressing for your organization*
+- Click **Save**
